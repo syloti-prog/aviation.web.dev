@@ -1,0 +1,46 @@
+h1 {
+    color: black;
+    border: 1px dotted; /* added border width for correctness */
+    border-radius: 20px;
+    background-color: aqua;
+    text-align: center;
+    box-shadow: 25px 30px 35px red;
+    box-sizing: border-box;
+    width: fit-content;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+ul li {
+    float: right;
+}
+
+ul li a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: blueviolet;
+}
